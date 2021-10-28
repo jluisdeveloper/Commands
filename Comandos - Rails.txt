@@ -1,0 +1,14 @@
+React Short Cuts
+rcc  => componente basado en clases
+rsc  => componente basado en arrow function
+rsf  => componente basado en funcion normal
+
+Crear proyectos con create react app
+create-react-app nombre de proyecto
+
+Comandos Ruby on rails
+rails new NombreProyecto --skip-coffee --skip-turbolinks --webpack=react --database=postgresql
+
+Para correr RImage carrierwave
+sudo apt install libmagickcore-dev
+sudo apt install libmagickwand-dev

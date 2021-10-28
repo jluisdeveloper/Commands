@@ -1,0 +1,3 @@
+control + shift + i            =>      FORMATEAR CODIGO  (SE NECESITA UN FORMATTER POR CADA LENGUAJE)
+control + k + c                =>      COMENTAR CODIGO
+control + k + u                =>      DESCOMENTAR CODIGO
