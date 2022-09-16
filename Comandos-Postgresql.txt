@@ -18,6 +18,11 @@ CREATE USER jluisdev PASSWORD 'password';               =>              CREAR UN
 ALTER ROLE jluisdev WITH SUPERUSER CREATEDB CREATEROLE; =>              DAR PERMISOS A USUARIO
 SELECT * FROM nombre_tabla;                             =>              OBTENER REGISTROS
 CREATE DATABASE nuevadb WITH OWNER usuario;             =>              CREAR BASE DE DATOS
+
+COMANDO PARA HACER UNA RESTAURACION DE LA BASE DE DATOS
+sudo su - postgres
+psql -d BasedeDatosEnLaQueSeVaAMontar -f DireccionDelBackupDump
+psql -d MagnaBackupTEST -f /tmp/mgn_bckup.sql
 ################################################################################################
 \l              =>      LISTAR TABLAS DE BASES DE DATOS
 \du             =>      LISTAR USUARIOS
