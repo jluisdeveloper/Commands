@@ -19,6 +19,11 @@ ALTER ROLE jluisdev WITH SUPERUSER CREATEDB CREATEROLE; =>              DAR PERM
 SELECT * FROM nombre_tabla;                             =>              OBTENER REGISTROS
 CREATE DATABASE nuevadb WITH OWNER usuario;             =>              CREAR BASE DE DATOS
 
+COMANDO PARA CREAR EL BACKUP
+pg_dump -U jluisdeveloper -W -h 127.0.0.1 basededatosarespaldar > respaldo_fecha.sql
+
+PEDIRA UN PASSWORD.
+
 COMANDO PARA HACER UNA RESTAURACION DE LA BASE DE DATOS
 sudo su - postgres
 psql -d BasedeDatosEnLaQueSeVaAMontar -f DireccionDelBackupDump
